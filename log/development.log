@@ -178,3 +178,44 @@ puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendering /Users/mah_sea/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /Users/mah_sea/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
   Rendered /Users/mah_sea/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (273.1ms)
+Started GET "/" for 127.0.0.1 at 2018-05-18 00:56:48 +0900
+  
+SyntaxError (/Users/mah_sea/Documents/app/test/test-app/app/controllers/application_controller.rb:5: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/application_controller.rb:5: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/mah_sea/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mah_sea/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mah_sea/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /Users/mah_sea/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mah_sea/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/mah_sea/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mah_sea/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/mah_sea/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (95.2ms)
+Started GET "/" for 127.0.0.1 at 2018-05-18 00:57:01 +0900
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-18 00:57:59 +0900
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-18 00:58:14 +0900
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-18 00:59:20 +0900
+Processing by ApplicationController#goodbye as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
